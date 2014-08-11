@@ -1,0 +1,27 @@
+{
+  "name": "biojs-model",
+  "description": "Biological data models",
+  "version": "0.0.4",
+  "homepage": "http://github.com/biojs/biojs-model",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/biojs/biojs-model"
+  },
+  "author": {
+    "name": "BioJS",
+    "email": "biojs-technical@googlegroups.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^5.9.1"
+  },
+  "keywords": [
+    "bio",
+    "models"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "build-browser": "browserify browser.js > biojs.model.min.js"
+  },
+  "license": "Apache 2"
+}
