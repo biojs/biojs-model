@@ -1,7 +1,7 @@
 {
   "name": "biojs-model",
   "description": "Biological data models",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "http://github.com/biojs/biojs-model",
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "keywords": [
     "bio",
+    "biojs",
     "models"
   ],
   "main": "src/index.js",
